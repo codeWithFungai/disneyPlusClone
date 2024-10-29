@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth; /**ensures a smooth transition when the user navigates drom one part of the webpage to another, instead of an immediate jump which doesn't look as tidy. **/
+}
+
+* { /**the astesisk selector applies the styling in the curly braces to all elements of the page.**/
+   box-sizing: border box; /**box sizing determines how the width and height of an element are calculated. By default, the value for box-sizing is content-box, which calculates the width and height of an element based on the content area occupied by the element only. border-box ensures that the width and height of all elements incudes their padding and border as well as the content area. **/
+}
+
+body {
+    background-color: #040714; 
+    color:#f9f9f9; /**sets the default text color for all text elements inside the body of the html document**/
+    font-family: Avenir-Roman, sans-serif;
+    margin: 0; /**determines the spacing between elements **/
+    padding: 0; /**determined the **/
+}
