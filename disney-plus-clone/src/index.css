@@ -10,6 +10,31 @@ body {
     background-color: #040714; 
     color:#f9f9f9; /**sets the default text color for all text elements inside the body of the html document**/
     font-family: Avenir-Roman, sans-serif;
-    margin: 0; /**determines the spacing between elements **/
-    padding: 0; /**determined the **/
+    margin: 0; /**determines the spacing between elements "outer space" **/
+    padding: 0; /**determines the space inside an elements border "inner space"**/
+}
+
+a {
+    color: #f9f9f9;
+    text-decoration: none; /**removes the default underline applied to all anchor tags. **/
+}
+
+/**media queries are used to apply different styles based on the screen width of the device. This helps to create responsive designs that adjust css styles according to the size of the user's screen.**/
+
+@media only screen and (min-width: 768px) { /**for devices where the screen width >= 768 pixels (desktops, tablets)**/
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) { /**for devices where the screen width is between 480px and 768px (small tablets, large mobile phones)**/
+  body {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 479px) { /**for devices where the screen width is <= 479px (smart phones)**/
+  body {
+    font-size: 14px;
+  }
 }
