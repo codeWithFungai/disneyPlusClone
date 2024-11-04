@@ -1,7 +1,7 @@
 import styled from "styled-components";
-const Login = (props) => {
+const Login = (props) => { //define a component names Login, which is going to take parameters and then execute the code inside of it. 
 
-    return (
+    return ( //whenever the Login component is called, it will execute the following code in sequence. 
            <Container>
                   <Content>
                     <CallToAction>
@@ -33,10 +33,10 @@ position: relative; //allow for the element to be moved left right, top or botto
 min-height: 100vh; //make it as tall as the entire viewport of the screen. 
 box-sizing: border-box; //prevent unexpected shifts by including the padding and border in the width and height calculation of the element.
 display: flex;
-justify-content: center; //center the element horizontally. 
-align-items: center; //center the element vertically. 
+justify-content: center; //center the element vertically.
+align-items: center; //center the element horizontally. 
 flex-direction: column;
-padding: 80px 40px; 
+padding: 80px 40px; //leave a space of 80px at the top and 40px on all the sides.
 height: 100%;
 `; 
 
@@ -55,7 +55,7 @@ z-index: -1; //place the element behind other elements with a higher z-index.
 `;
 
 const CallToAction = styled.div`
-max-width: 650px;
+max-width: 650px; //prevent the elements from taking up the entire width of the screen. 
 display: flex; //arrange all flex items in a single line (row or column depending on flex-direction). 
 flex-direction: column; //arrange all flex items into a column, so from top to bottom. 
 width: 100%;

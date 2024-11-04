@@ -110,7 +110,7 @@ right: 0;
 height: 70px;
 background-color: #090b13;
 display: flex;
-justify-content: space-between; //push the items as far apart as possible
+justify-content: space-between; //atuomatically calculate equal space between the items. 
 align-items: center; //vertically center the items.
 padding: 0 36px; //move the items away from the edge of the screen, to the right.
 letter-spacing: 16px;
